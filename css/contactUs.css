@@ -1,0 +1,145 @@
+/* get in touch section */
+.getInTouch__form__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 1035px;
+}
+.getInTouch__form__container{
+    
+    max-width: 905px;
+
+}
+
+.getInTouch__form__title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.getInTouch__form__title{
+    color: #5889D6;
+    font-family: Quicksand;
+    font-size: 26.182px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.262px;
+}
+.getInTouch__form__title__line{
+    width: 174.545px;
+    height: 2.182px;
+    border-radius: 2.182px;
+background: #4A99D3;
+margin-left: 20px;
+}
+.getInTouch__form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.getInTouch__form__subtitle{
+    color: #697CA6;
+font-family: Quicksand;
+font-size: 21.818px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.getInTouch__form__columns{
+    display: flex;
+    gap: 65px;
+}
+.getInTouch__form__column1{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.form__column{
+    min-height: 410px;
+}
+.fullName, .email, .message, .getInTouch__form__colum1__button{
+    width: 100%;
+}
+.fullName, .email{
+    min-height: 55px;
+}
+.message{
+    min-height: 150px;
+}
+.fullName[type="text"]::-webkit-input-placeholder{
+transform: translateY(10px);
+}
+.fullName[type="text"]::-moz-placeholder{
+    transform: translateY(10px);
+}
+.message[type="text"]::-webkit-input-placeholder{
+transform: translateY(-45px);
+}
+.message[type="text"]::-moz-placeholder{
+    transform: translateY(-45px);
+}
+.fullName, .email, .message[type="text"]::-webkit-input-placeholder{
+    color: #9F9F9F;
+    font-family: Quicksand;
+    font-size: 17.455px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+    padding-left: 15px;
+}
+.fullName, .email, .message[type="text"]::-moz-placeholder{
+    color: #9F9F9F;
+font-family: Quicksand;
+font-size: 17.455px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.8;
+padding-left: 15px;
+}
+.fullName, .email, .message{
+    border-radius: 4.364px;
+border: 1.309px solid #B4BEC8;
+}
+.getInTouch__form__column1__button{
+    display: block;
+height: 55px;
+border-radius: 4.364px;
+background: #407BFF;
+color: #FFF;
+font-family: Quicksand;
+font-size: 19.636px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 17px 205px 12px 205px;
+transition: all .3s ease;
+margin-top: 17px;
+
+}
+.getInTouch__form__column1__button:hover{
+    background: #697CA6;
+}
+.getInTouch__form__column2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.getInTouch__form__contactOption{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.getInTouch__map__container{
+    margin-top: 25px;
+   
+}
+iframe{
+     border-radius: 4.364px;
+}
